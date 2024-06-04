@@ -1,0 +1,1307 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19560 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 344.383 ; gain = 104.113
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/top.v:24]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [E:/vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (1#1) [E:/vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'cpuclk' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/realtime/cpuclk_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'cpuclk' (2#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/realtime/cpuclk_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'uart_bmpg_0' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/realtime/uart_bmpg_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'uart_bmpg_0' (3#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/realtime/uart_bmpg_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'IF' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/IF.v:5]
+INFO: [Synth 8-638] synthesizing module 'PC' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/PC.v:4]
+INFO: [Synth 8-256] done synthesizing module 'PC' (4#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/PC.v:4]
+INFO: [Synth 8-256] done synthesizing module 'IF' (5#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/IF.v:5]
+INFO: [Synth 8-638] synthesizing module 'programROM' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/programROM.v:23]
+INFO: [Synth 8-638] synthesizing module 'inst_mem' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/realtime/inst_mem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'inst_mem' (6#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/realtime/inst_mem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'programROM' (7#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/programROM.v:23]
+INFO: [Synth 8-638] synthesizing module 'Controller' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/Controller.v:5]
+INFO: [Synth 8-256] done synthesizing module 'Controller' (8#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/Controller.v:5]
+INFO: [Synth 8-638] synthesizing module 'ID' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/ID.v:23]
+INFO: [Synth 8-638] synthesizing module 'Register' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/Register.v:24]
+INFO: [Synth 8-256] done synthesizing module 'Register' (9#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/Register.v:24]
+INFO: [Synth 8-638] synthesizing module 'GenImm' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/GenImm.v:23]
+INFO: [Synth 8-256] done synthesizing module 'GenImm' (10#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/GenImm.v:23]
+INFO: [Synth 8-638] synthesizing module 'PCselect' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/PCselect.v:4]
+INFO: [Synth 8-638] synthesizing module 'compare' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/compare.v:23]
+INFO: [Synth 8-256] done synthesizing module 'compare' (11#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/compare.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PCselect' (12#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/PCselect.v:4]
+INFO: [Synth 8-256] done synthesizing module 'ID' (13#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/ID.v:23]
+INFO: [Synth 8-638] synthesizing module 'EX' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/EX.v:24]
+INFO: [Synth 8-638] synthesizing module 'ALU' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/ALU.v:24]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/ALU.v:24]
+INFO: [Synth 8-256] done synthesizing module 'EX' (15#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/EX.v:24]
+INFO: [Synth 8-638] synthesizing module 'DMemory32' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/DMemory32.v:1]
+INFO: [Synth 8-638] synthesizing module 'data_mem' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/realtime/data_mem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'data_mem' (16#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/realtime/data_mem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'DMemory32' (17#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/DMemory32.v:1]
+INFO: [Synth 8-638] synthesizing module 'MemOrIO' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/MemOrIO.v:4]
+INFO: [Synth 8-256] done synthesizing module 'MemOrIO' (18#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/MemOrIO.v:4]
+WARNING: [Synth 8-689] width (17) of port connection 'io_rdata_button' does not match port width (16) of module 'MemOrIO' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/top.v:238]
+INFO: [Synth 8-638] synthesizing module 'WB' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/WB.v:1]
+INFO: [Synth 8-256] done synthesizing module 'WB' (19#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/WB.v:1]
+INFO: [Synth 8-638] synthesizing module 'button' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/button.v:23]
+INFO: [Synth 8-256] done synthesizing module 'button' (20#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/button.v:23]
+INFO: [Synth 8-638] synthesizing module 'switchs' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/switchs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'switchs' (21#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/switchs.v:23]
+INFO: [Synth 8-638] synthesizing module 'leds' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/leds.v:22]
+INFO: [Synth 8-256] done synthesizing module 'leds' (22#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/leds.v:22]
+INFO: [Synth 8-638] synthesizing module 'segs' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:23]
+	Parameter cnt bound to: 5000 - type: integer 
+INFO: [Synth 8-226] default block is never used [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:108]
+INFO: [Synth 8-226] default block is never used [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:160]
+INFO: [Synth 8-226] default block is never used [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:182]
+INFO: [Synth 8-256] done synthesizing module 'segs' (23#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:23]
+INFO: [Synth 8-638] synthesizing module 'vgas' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:24]
+INFO: [Synth 8-638] synthesizing module 'vga_char' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vga_char.v:23]
+INFO: [Synth 8-4471] merging register 'col6_reg[7:0]' into 'col0_reg[7:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vga_char.v:42]
+WARNING: [Synth 8-6014] Unused sequential element col6_reg was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vga_char.v:42]
+INFO: [Synth 8-256] done synthesizing module 'vga_char' (24#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vga_char.v:23]
+INFO: [Synth 8-638] synthesizing module 'vga_num_ram_module' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vga_num.v:23]
+INFO: [Synth 8-4471] merging register 'col6_reg[7:0]' into 'col0_reg[7:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vga_num.v:42]
+WARNING: [Synth 8-6014] Unused sequential element col6_reg was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vga_num.v:42]
+INFO: [Synth 8-256] done synthesizing module 'vga_num_ram_module' (25#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vga_num.v:23]
+INFO: [Synth 8-4471] merging register 'st_reg[1][63:0]' into 'st_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[1][63:0]' into 'st1_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[2][63:0]' into 'st_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[2][63:0]' into 'st1_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[3][63:0]' into 'st_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[3][63:0]' into 'st1_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[4][63:0]' into 'st_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[4][63:0]' into 'st1_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[5][63:0]' into 'st_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[5][63:0]' into 'st1_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[6][63:0]' into 'st_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[6][63:0]' into 'st1_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[7][63:0]' into 'st_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[7][63:0]' into 'st1_reg[0][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[9][63:0]' into 'st_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[9][63:0]' into 'st1_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[10][63:0]' into 'st_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[10][63:0]' into 'st1_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[11][63:0]' into 'st_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[11][63:0]' into 'st1_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[12][63:0]' into 'st_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[12][63:0]' into 'st1_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[13][63:0]' into 'st_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[13][63:0]' into 'st1_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[14][63:0]' into 'st_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[14][63:0]' into 'st1_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[15][63:0]' into 'st_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[15][63:0]' into 'st1_reg[8][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[17][63:0]' into 'st_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[17][63:0]' into 'st1_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[18][63:0]' into 'st_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[18][63:0]' into 'st1_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[19][63:0]' into 'st_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[19][63:0]' into 'st1_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[20][63:0]' into 'st_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[20][63:0]' into 'st1_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[21][63:0]' into 'st_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[21][63:0]' into 'st1_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[22][63:0]' into 'st_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[22][63:0]' into 'st1_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[23][63:0]' into 'st_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[23][63:0]' into 'st1_reg[16][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[25][63:0]' into 'st_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[25][63:0]' into 'st1_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[26][63:0]' into 'st_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[26][63:0]' into 'st1_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[27][63:0]' into 'st_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[27][63:0]' into 'st1_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[28][63:0]' into 'st_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[28][63:0]' into 'st1_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[29][63:0]' into 'st_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[29][63:0]' into 'st1_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[30][63:0]' into 'st_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[30][63:0]' into 'st1_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[31][63:0]' into 'st_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[31][63:0]' into 'st1_reg[24][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[33][63:0]' into 'st_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[33][63:0]' into 'st1_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[34][63:0]' into 'st_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[34][63:0]' into 'st1_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[35][63:0]' into 'st_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[35][63:0]' into 'st1_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[36][63:0]' into 'st_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[36][63:0]' into 'st1_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[37][63:0]' into 'st_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[37][63:0]' into 'st1_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[38][63:0]' into 'st_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[38][63:0]' into 'st1_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[39][63:0]' into 'st_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[39][63:0]' into 'st1_reg[32][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[41][63:0]' into 'st_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[41][63:0]' into 'st1_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[42][63:0]' into 'st_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[42][63:0]' into 'st1_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[43][63:0]' into 'st_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[43][63:0]' into 'st1_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[44][63:0]' into 'st_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[44][63:0]' into 'st1_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[45][63:0]' into 'st_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[45][63:0]' into 'st1_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[46][63:0]' into 'st_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[46][63:0]' into 'st1_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[47][63:0]' into 'st_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[47][63:0]' into 'st1_reg[40][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[49][63:0]' into 'st_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[49][63:0]' into 'st1_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[50][63:0]' into 'st_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[50][63:0]' into 'st1_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[51][63:0]' into 'st_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[51][63:0]' into 'st1_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[52][63:0]' into 'st_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[52][63:0]' into 'st1_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[53][63:0]' into 'st_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[53][63:0]' into 'st1_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[54][63:0]' into 'st_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[54][63:0]' into 'st1_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Synth 8-4471] merging register 'st_reg[55][63:0]' into 'st_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Synth 8-4471] merging register 'st1_reg[55][63:0]' into 'st1_reg[48][63:0]' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:94]
+INFO: [Common 17-14] Message 'Synth 8-4471' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-6014] Unused sequential element st_reg[335] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[334] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[333] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[332] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[331] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[330] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[329] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[327] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[326] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[325] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[324] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[323] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[322] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[321] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[319] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[318] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[317] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[316] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[315] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[314] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[313] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[311] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[310] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[309] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[308] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[307] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[306] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[305] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[303] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[302] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[301] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[300] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[299] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[298] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[297] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[295] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[294] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[293] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[292] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[291] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[290] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[289] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[287] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[286] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[285] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[284] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[283] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[282] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[281] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[279] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[278] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[277] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[276] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[275] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[274] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[273] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[271] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[270] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[269] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[268] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[267] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[266] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[265] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[263] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[262] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[261] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[260] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[259] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[258] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[257] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[255] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[254] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[253] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[252] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[251] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[250] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[249] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[247] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[246] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[245] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[244] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[243] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[242] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[241] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[239] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[238] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[237] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[236] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[235] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[234] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[233] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[231] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[230] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[229] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[228] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[227] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[226] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+WARNING: [Synth 8-6014] Unused sequential element st_reg[225] was removed.  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:93]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-5788] Register wdata_reg in module vgas is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:159]
+WARNING: [Synth 8-3848] Net st[336] in module/entity vgas does not have driver. [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:48]
+WARNING: [Synth 8-3848] Net st2[392] in module/entity vgas does not have driver. [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:50]
+WARNING: [Synth 8-3848] Net mile_after[392] in module/entity vgas does not have driver. [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:51]
+WARNING: [Synth 8-3848] Net st1[336] in module/entity vgas does not have driver. [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:49]
+INFO: [Synth 8-256] done synthesizing module 'vgas' (26#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/vgas.v:24]
+INFO: [Synth 8-256] done synthesizing module 'top' (27#1) [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/top.v:24]
+WARNING: [Synth 8-3331] design leds has unconnected port clk
+WARNING: [Synth 8-3331] design switchs has unconnected port clk
+WARNING: [Synth 8-3331] design button has unconnected port clk
+WARNING: [Synth 8-3331] design button has unconnected port rst
+WARNING: [Synth 8-3331] design button has unconnected port buttonaddr[1]
+WARNING: [Synth 8-3331] design button has unconnected port buttonaddr[0]
+WARNING: [Synth 8-3331] design WB has unconnected port clk
+WARNING: [Synth 8-3331] design MemOrIO has unconnected port mRead
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[31]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[30]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[29]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[28]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[27]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[26]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[25]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[24]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[23]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[22]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[21]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[20]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[19]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[18]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[17]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[16]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[31]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[30]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[29]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[28]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[27]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[26]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[25]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[24]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[23]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[22]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[21]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[20]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[19]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[18]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[17]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[16]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[15]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[11]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[10]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[9]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[8]
+WARNING: [Synth 8-3331] design PCselect has unconnected port inst[7]
+WARNING: [Synth 8-3331] design ID has unconnected port MemRead
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[24]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[23]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[22]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[21]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[20]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[19]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[18]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[17]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[16]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[15]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[11]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[10]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[9]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[8]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:45 . Memory (MB): peak = 1008.988 ; gain = 768.719
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:46 . Memory (MB): peak = 1008.988 ; gain = 768.719
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp4/uart_bmpg_0_in_context.xdc] for cell 'uart_inst'
+Finished Parsing XDC File [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp4/uart_bmpg_0_in_context.xdc] for cell 'uart_inst'
+Parsing XDC File [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp5/cpuclk_in_context.xdc] for cell 'clk1'
+Finished Parsing XDC File [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp5/cpuclk_in_context.xdc] for cell 'clk1'
+Parsing XDC File [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp6/inst_mem_in_context.xdc] for cell 'rom_inst/rom_inst'
+Finished Parsing XDC File [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp6/inst_mem_in_context.xdc] for cell 'rom_inst/rom_inst'
+Parsing XDC File [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp7/data_mem_in_context.xdc] for cell 'dmem/dm'
+Finished Parsing XDC File [E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp7/data_mem_in_context.xdc] for cell 'dmem/dm'
+Parsing XDC File [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/constrs_1/new/constraint.xdc]
+Finished Parsing XDC File [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/constrs_1/new/constraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/constrs_1/new/constraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1008.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:01:09 . Memory (MB): peak = 1008.988 ; gain = 768.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:01:09 . Memory (MB): peak = 1008.988 ; gain = 768.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for rx. (constraint file  E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp4/uart_bmpg_0_in_context.xdc, line 103).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for rx. (constraint file  E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp4/uart_bmpg_0_in_context.xdc, line 104).
+Applied set_property IO_BUFFER_TYPE = NONE for tx. (constraint file  E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp4/uart_bmpg_0_in_context.xdc, line 105).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tx. (constraint file  E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp4/uart_bmpg_0_in_context.xdc, line 106).
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp5/cpuclk_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/.Xil/Vivado-15288-Aurora/dcp5/cpuclk_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for clk1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dmem/dm. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rom_inst/rom_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for uart_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:01:09 . Memory (MB): peak = 1008.988 ; gain = 768.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "Branch" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "instType" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUOp" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "src" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "PCSel0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PCSel0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PCSel0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "ALUControl" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUControl" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "divclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "col1" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "col2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "col3" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "col4" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "col5" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5544] ROM "data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "let0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "let2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "num51" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'io_rdata_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/MemOrIO.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'write_data_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/MemOrIO.v:42]
+WARNING: [Synth 8-327] inferring latch for variable 'write_data_led_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/MemOrIO.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'write_data_seg_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/MemOrIO.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'down_buttondata_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/button.v:42]
+WARNING: [Synth 8-327] inferring latch for variable 'up_buttondata_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/button.v:41]
+WARNING: [Synth 8-327] inferring latch for variable 'right_buttondata_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/button.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'switchrdata_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/switchs.v:36]
+WARNING: [Synth 8-327] inferring latch for variable 'led_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/leds.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'seg_out1_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:162]
+WARNING: [Synth 8-327] inferring latch for variable 'seg_out2_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:184]
+WARNING: [Synth 8-327] inferring latch for variable 'num0_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:65]
+WARNING: [Synth 8-327] inferring latch for variable 'num1_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:64]
+WARNING: [Synth 8-327] inferring latch for variable 'num2_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:63]
+WARNING: [Synth 8-327] inferring latch for variable 'num3_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:62]
+WARNING: [Synth 8-327] inferring latch for variable 'num4_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:61]
+WARNING: [Synth 8-327] inferring latch for variable 'num5_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:60]
+WARNING: [Synth 8-327] inferring latch for variable 'num6_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:59]
+WARNING: [Synth 8-327] inferring latch for variable 'num7_reg' [E:/vivado/code/2024-Spring-CPU-CS202/CPU.srcs/sources_1/new/segs.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:01:14 . Memory (MB): peak = 1008.988 ; gain = 768.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'vgas_inst/char_10' (vga_char) to 'vgas_inst/char_22'
+INFO: [Synth 8-223] decloning instance 'vgas_inst/char_11' (vga_char) to 'vgas_inst/char_13'
+INFO: [Synth 8-223] decloning instance 'vgas_inst/char_11' (vga_char) to 'vgas_inst/char_25'
+INFO: [Synth 8-223] decloning instance 'vgas_inst/char_14' (vga_char) to 'vgas_inst/char_21'
+INFO: [Synth 8-223] decloning instance 'vgas_inst/char_15' (vga_char) to 'vgas_inst/char_26'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   4 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     19 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               64 Bit    Registers := 182   
+	               32 Bit    Registers := 33    
+	               19 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 92    
+	                7 Bit    Registers := 35    
+	                6 Bit    Registers := 6     
+	                4 Bit    Registers := 7     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 10    
+	   6 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 7     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 2     
+	   4 Input     12 Bit        Muxes := 1     
+	   8 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  28 Input      7 Bit        Muxes := 70    
+	  12 Input      7 Bit        Muxes := 14    
+	   2 Input      5 Bit        Muxes := 2     
+	   9 Input      4 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 54    
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module PC 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module IF 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module programROM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module Register 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module GenImm 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+Module compare 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module PCselect 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 3     
+Module ID 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   9 Input      4 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+Module EX 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module DMemory32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module MemOrIO 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module WB 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module switchs 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module leds 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module segs 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               19 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     19 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module vga_char 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 6     
++---Muxes : 
+	  28 Input      7 Bit        Muxes := 5     
+Module vga_num_ram_module 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 5     
++---Muxes : 
+	  12 Input      7 Bit        Muxes := 2     
+Module vgas 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 182   
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                6 Bit    Registers := 6     
+	                4 Bit    Registers := 6     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   4 Input     12 Bit        Muxes := 1     
+	   8 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "PCSel0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PCSel0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PCSel0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "instType" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "src" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUControl" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "divclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "char_0/col1" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "char_0/col2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "char_0/col3" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_0/col4" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_0/col5" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_1/col1" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "char_1/col2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "char_1/col3" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_1/col4" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_1/col5" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_2/col1" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "char_2/col2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "char_2/col3" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_2/col4" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_2/col5" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_3/col1" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "char_3/col2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "char_3/col3" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_3/col4" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_3/col5" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_4/col1" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "char_4/col2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "char_4/col3" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_4/col4" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_4/col5" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_5/col1" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "char_5/col2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "char_5/col3" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_5/col4" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_5/col5" is below threshold of ROM address width. It will be mapped to LUTs
+WARNING: [Synth 8-3331] design leds has unconnected port clk
+WARNING: [Synth 8-3331] design switchs has unconnected port clk
+WARNING: [Synth 8-3331] design WB has unconnected port clk
+WARNING: [Synth 8-3331] design MemOrIO has unconnected port mRead
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[31]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[30]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[29]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[28]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[27]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[26]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[25]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[24]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[23]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[22]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[21]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[20]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[19]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[18]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[17]
+WARNING: [Synth 8-3331] design DMemory32 has unconnected port mem_address[16]
+WARNING: [Synth 8-3331] design ID has unconnected port MemRead
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[24]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[23]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[22]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[21]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[20]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[19]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[18]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[17]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[16]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[15]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[11]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[10]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[9]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[8]
+WARNING: [Synth 8-3331] design Controller has unconnected port inst[7]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\let1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\let1_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\let1_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\let1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\let1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\let1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\let2_reg[1] )
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let2_reg[3]' (FDR) to 'vgas_inst/let2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\let2_reg[4] )
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let2_reg[0]' (FDR) to 'vgas_inst/let0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let2_reg[2]' (FDS) to 'vgas_inst/let0_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\let2_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\let3_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\let3_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\let3_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\let3_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\let3_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\let3_reg[5] )
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let4_reg[1]' (FDSE) to 'vgas_inst/let5_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let4_reg[3]' (FDSE) to 'vgas_inst/let5_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let4_reg[4]' (FDRE) to 'vgas_inst/let5_reg[1]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let4_reg[0]' (FDRE) to 'vgas_inst/let5_reg[1]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let4_reg[2]' (FDRE) to 'vgas_inst/let5_reg[1]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let4_reg[5]' (FDRE) to 'vgas_inst/let5_reg[1]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let5_reg[1]' (FDRE) to 'vgas_inst/let5_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let5_reg[3]' (FDRE) to 'vgas_inst/let5_reg[5]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let5_reg[4]' (FDSE) to 'vgas_inst/let5_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let5_reg[0]' (FDSE) to 'vgas_inst/let5_reg[2]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\let5_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\let5_reg[5] )
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let0_reg[0]' (FDR) to 'vgas_inst/let0_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\let0_reg[2] )
+INFO: [Synth 8-3886] merging instance 'vgas_inst/let0_reg[1]' (FDR) to 'vgas_inst/let0_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\let0_reg[5] )
+INFO: [Synth 8-3886] merging instance 'vgas_inst/num5_reg[1]' (FDPE) to 'vgas_inst/num5_reg[2]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/num5_reg[2]' (FDPE) to 'vgas_inst/num5_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\num5_reg[3] )
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[12]' (LD) to 'io/write_data_led_reg[12]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[8]' (LD) to 'io/write_data_led_reg[8]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[4]' (LD) to 'io/write_data_led_reg[4]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[0]' (LD) to 'io/write_data_led_reg[0]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[13]' (LD) to 'io/write_data_led_reg[13]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[9]' (LD) to 'io/write_data_led_reg[9]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[5]' (LD) to 'io/write_data_led_reg[5]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[1]' (LD) to 'io/write_data_led_reg[1]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[14]' (LD) to 'io/write_data_led_reg[14]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[10]' (LD) to 'io/write_data_led_reg[10]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[6]' (LD) to 'io/write_data_led_reg[6]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[2]' (LD) to 'io/write_data_led_reg[2]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[15]' (LD) to 'io/write_data_led_reg[15]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[11]' (LD) to 'io/write_data_led_reg[11]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[7]' (LD) to 'io/write_data_led_reg[7]'
+INFO: [Synth 8-3886] merging instance 'io/write_data_seg_reg[3]' (LD) to 'io/write_data_led_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_0/col2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_0/col3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_0/col4_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_0/col5_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_1/col1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_1/col2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_1/col3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_1/col4_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_1/col5_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_2/col1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_2/col2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_2/col3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_2/col4_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_2/col5_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_3/col1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_3/col2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_3/col3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_3/col4_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_3/col5_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_4/col1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_4/col2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_4/col3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_4/col4_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_4/col5_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_5/col1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_5/col2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_5/col3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_5/col4_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_5/col5_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_0/col1_reg[7] )
+INFO: [Synth 8-3886] merging instance 'vgas_inst/char_1/col1_reg[4]' (FD) to 'vgas_inst/char_1/col1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/char_2/col1_reg[4]' (FD) to 'vgas_inst/char_2/col1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/char_3/col1_reg[4]' (FD) to 'vgas_inst/char_3/col1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/char_4/col1_reg[4]' (FD) to 'vgas_inst/char_4/col1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/char_5/col1_reg[4]' (FD) to 'vgas_inst/char_5/col1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/char_0/col1_reg[4]' (FD) to 'vgas_inst/char_0/col1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vga_num_ram_module:/col4_reg[1]' (FD) to 'vga_num_ram_module:/col4_reg[4]'
+INFO: [Synth 8-3886] merging instance 'vga_num_ram_module:/col4_reg[4]' (FD) to 'vga_num_ram_module:/col4_reg[5]'
+INFO: [Synth 8-3886] merging instance 'vga_num_ram_module:/col0_reg[0]' (FD) to 'vga_num_ram_module:/col0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'vga_num_ram_module:/col0_reg[1]' (FD) to 'vga_num_ram_module:/col0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'vga_num_ram_module:/col0_reg[2]' (FD) to 'vga_num_ram_module:/col0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'vga_num_ram_module:/col0_reg[3]' (FD) to 'vga_num_ram_module:/col0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'vga_num_ram_module:/col0_reg[4]' (FD) to 'vga_num_ram_module:/col0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'vga_num_ram_module:/col0_reg[5]' (FD) to 'vga_num_ram_module:/col0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'vga_num_ram_module:/col0_reg[6]' (FD) to 'vga_num_ram_module:/col0_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vga_num_ram_module:/\col0_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_24/col1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col5_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col4_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_23/col5_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_23/col4_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_23/col2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_24/col5_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_24/col3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_23/col3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_24/col4_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_23/col1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_24/col2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_24/col1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_20/col5_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col3_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col4_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_23/col5_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col2_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_23/col4_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_23/col2_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_20/col1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_24/col5_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_24/col3_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_23/col3_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_24/col4_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_23/col1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_24/col2_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_24/col1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col5_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col3_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_20/col4_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_23/col5_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col2_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_23/col4_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_23/col2_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_20/col1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_24/col5_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_24/col3_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_23/col3_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_24/col4_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_23/col1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_24/col2_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_24/col1_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col5_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (vgas_inst/\char_20/col3_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vgas_inst/\char_20/col4_reg[4] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[16][55]' (FD) to 'vgas_inst/st_reg[16][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[24][55]' (FD) to 'vgas_inst/st_reg[24][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[32][55]' (FD) to 'vgas_inst/st_reg[32][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[40][55]' (FD) to 'vgas_inst/st_reg[40][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[64][55]' (FD) to 'vgas_inst/st_reg[64][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[72][55]' (FD) to 'vgas_inst/st_reg[72][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[80][55]' (FD) to 'vgas_inst/st_reg[80][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[88][55]' (FD) to 'vgas_inst/st_reg[88][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[96][55]' (FD) to 'vgas_inst/st_reg[96][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[120][55]' (FD) to 'vgas_inst/st_reg[120][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[128][55]' (FD) to 'vgas_inst/st_reg[128][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[136][55]' (FD) to 'vgas_inst/st_reg[136][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[144][55]' (FD) to 'vgas_inst/st_reg[144][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[152][55]' (FD) to 'vgas_inst/st_reg[152][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[176][55]' (FD) to 'vgas_inst/st_reg[176][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[184][55]' (FD) to 'vgas_inst/st_reg[184][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[192][55]' (FD) to 'vgas_inst/st_reg[192][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[200][55]' (FD) to 'vgas_inst/st_reg[200][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[208][55]' (FD) to 'vgas_inst/st_reg[208][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[232][55]' (FD) to 'vgas_inst/st_reg[232][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[240][55]' (FD) to 'vgas_inst/st_reg[240][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[248][55]' (FD) to 'vgas_inst/st_reg[248][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[256][55]' (FD) to 'vgas_inst/st_reg[256][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[264][55]' (FD) to 'vgas_inst/st_reg[264][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[288][55]' (FD) to 'vgas_inst/st_reg[288][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[296][55]' (FD) to 'vgas_inst/st_reg[296][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[304][55]' (FD) to 'vgas_inst/st_reg[304][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[312][55]' (FD) to 'vgas_inst/st_reg[312][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[320][55]' (FD) to 'vgas_inst/st_reg[320][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[8][55]' (FD) to 'vgas_inst/st_reg[8][54]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[16][54]' (FD) to 'vgas_inst/st_reg[16][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[24][54]' (FD) to 'vgas_inst/st_reg[24][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[32][54]' (FD) to 'vgas_inst/st_reg[32][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[40][54]' (FD) to 'vgas_inst/st_reg[40][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[64][54]' (FD) to 'vgas_inst/st_reg[64][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[72][54]' (FD) to 'vgas_inst/st_reg[72][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[80][54]' (FD) to 'vgas_inst/st_reg[80][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[88][54]' (FD) to 'vgas_inst/st_reg[88][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[96][54]' (FD) to 'vgas_inst/st_reg[96][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[120][54]' (FD) to 'vgas_inst/st_reg[120][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[128][54]' (FD) to 'vgas_inst/st_reg[128][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[136][54]' (FD) to 'vgas_inst/st_reg[136][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[144][54]' (FD) to 'vgas_inst/st_reg[144][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[152][54]' (FD) to 'vgas_inst/st_reg[152][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[176][54]' (FD) to 'vgas_inst/st_reg[176][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[184][54]' (FD) to 'vgas_inst/st_reg[184][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[192][54]' (FD) to 'vgas_inst/st_reg[192][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[200][54]' (FD) to 'vgas_inst/st_reg[200][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[208][54]' (FD) to 'vgas_inst/st_reg[208][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[232][54]' (FD) to 'vgas_inst/st_reg[232][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[240][54]' (FD) to 'vgas_inst/st_reg[240][53]'
+INFO: [Synth 8-3886] merging instance 'vgas_inst/st_reg[248][54]' (FD) to 'vgas_inst/st_reg[248][53]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[31]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[30]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[29]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[28]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[27]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[26]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[25]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[24]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[23]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[22]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[21]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[20]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[19]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[18]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[17]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[16]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[15]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[14]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[13]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[12]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[11]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[10]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[9]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[8]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[7]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[6]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[5]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[4]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[3]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[2]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[1]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (write_data_reg[0]) is unused and will be removed from module MemOrIO.
+WARNING: [Synth 8-3332] Sequential element (seg_out1_reg[0]) is unused and will be removed from module segs.
+WARNING: [Synth 8-3332] Sequential element (seg_out2_reg[0]) is unused and will be removed from module segs.
+WARNING: [Synth 8-3332] Sequential element (col0_reg[7]) is unused and will be removed from module vga_num_ram_module.
+WARNING: [Synth 8-3332] Sequential element (char_0/col0_reg[7]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (char_0/col0_reg[6]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (char_0/col0_reg[5]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (char_0/col0_reg[4]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (char_0/col0_reg[3]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (char_0/col0_reg[2]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (char_0/col0_reg[1]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (char_0/col0_reg[0]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][63]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][62]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][61]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][60]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][59]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][58]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][57]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][56]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][55]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][54]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][53]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][52]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][51]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][50]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][49]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][48]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][47]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][46]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][45]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][44]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][43]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][42]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][41]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][40]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][39]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][38]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][37]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][36]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][35]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][34]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][33]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][32]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][31]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][30]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][29]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][28]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][27]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][26]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][25]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][24]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][23]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][22]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][21]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][20]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][19]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][18]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][17]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][16]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][15]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][14]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][13]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][12]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][11]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][10]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][9]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][8]) is unused and will be removed from module vgas.
+WARNING: [Synth 8-3332] Sequential element (st_reg[48][7]) is unused and will be removed from module vgas.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:03:39 . Memory (MB): peak = 1008.988 ; gain = 768.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk1/cpu_clk' to pin 'clk1/bbstub_cpu_clk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk1/uart_clk' to pin 'clk1/bbstub_uart_clk/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:03:46 . Memory (MB): peak = 1008.988 ; gain = 768.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:04:17 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:53 ; elapsed = 00:04:27 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:04:28 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:04:28 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:04:28 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:04:28 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:04:28 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:04:28 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |cpuclk        |         1|
+|2     |uart_bmpg_0   |         1|
+|3     |data_mem      |         1|
+|4     |inst_mem      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |cpuclk      |     1|
+|2     |data_mem    |     1|
+|3     |inst_mem    |     1|
+|4     |uart_bmpg_0 |     1|
+|5     |BUFG        |     3|
+|6     |CARRY4      |   132|
+|7     |LUT1        |    78|
+|8     |LUT2        |   272|
+|9     |LUT3        |   254|
+|10    |LUT4        |   495|
+|11    |LUT5        |   401|
+|12    |LUT6        |  1264|
+|13    |MUXF7       |   289|
+|14    |MUXF8       |    44|
+|15    |FDCE        |     6|
+|16    |FDPE        |    15|
+|17    |FDRE        |  1500|
+|18    |FDSE        |    33|
+|19    |LD          |    97|
+|20    |LDC         |    31|
+|21    |LDCP        |     1|
+|22    |IBUF        |    21|
+|23    |OBUF        |    54|
++------+------------+------+
+
+Report Instance Areas: 
++------+---------------+---------------------+------+
+|      |Instance       |Module               |Cells |
++------+---------------+---------------------+------+
+|1     |top            |                     |  5107|
+|2     |  executer     |EX                   |    30|
+|3     |    alu        |ALU                  |    30|
+|4     |  button_inst  |button               |     3|
+|5     |  dmem         |DMemory32            |    43|
+|6     |  inst_decoder |ID                   |  2305|
+|7     |    regFile    |Register             |  2297|
+|8     |    u1         |PCselect             |     8|
+|9     |      comp     |compare              |     8|
+|10    |  inst_fetch   |IF                   |   117|
+|11    |    IF_pc      |PC                   |    54|
+|12    |  io           |MemOrIO              |   103|
+|13    |  leds_inst    |leds                 |    16|
+|14    |  rom_inst     |programROM           |   978|
+|15    |  segs_inst    |segs                 |   128|
+|16    |  switchs_inst |switchs              |    16|
+|17    |  vgas_inst    |vgas                 |  1155|
+|18    |    char_0     |vga_char             |    17|
+|19    |    char_2     |vga_char_0           |    23|
+|20    |    number_1   |vga_num_ram_module   |    62|
+|21    |    number_2   |vga_num_ram_module_1 |    62|
+|22    |    number_3   |vga_num_ram_module_2 |    62|
+|23    |    number_4   |vga_num_ram_module_3 |    62|
+|24    |    number_5   |vga_num_ram_module_4 |    62|
+|25    |    number_6   |vga_num_ram_module_5 |     1|
+|26    |  write_back   |WB                   |    32|
++------+---------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:04:28 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4053 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:04:14 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:04:29 . Memory (MB): peak = 1391.871 ; gain = 1151.602
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 615 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 129 instances were transformed.
+  LD => LDCE: 97 instances
+  LDC => LDCE: 31 instances
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+475 Infos, 323 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:04:34 . Memory (MB): peak = 1391.871 ; gain = 1162.195
+INFO: [Common 17-1381] The checkpoint 'E:/vivado/code/2024-Spring-CPU-CS202/CPU.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1391.871 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  4 17:27:36 2024...
