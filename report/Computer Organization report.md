@@ -28,7 +28,7 @@
 
 * 完成各个模块的初步设计，包括`PC, Controller, GenImm, ALU, inst_mem, data_mem`
 
-* 一些输出和显示模块：`vga, led`
+* 一些输出和显示模块：`led`
 
 * 用Java实现txt转coe小工具
 
@@ -495,8 +495,6 @@ assign ButtonCtrl = (IORead == 1'b1 && addr_in[7:4] == 4'b1001)?1'b1:1'b0; //but
 assign SwitchCtrl = (IORead == 1'b1 && addr_in[7:4] == 4'b0101)?1'b1:1'b0; //switchCtrl, 1 is effective   ? 0xFFFF_FC50
 assign LEDCtrl    = (IOWrite == 1'b1 && addr_in[7:4] == 4'b0110)?1'b1:1'b0; // ledCtrl, 1 is effective   ? 0xFFFF_FC60
 assign SEGCtrl    = (IOWrite == 1'b1 && addr_in[7:4] == 4'b0111)?1'b1:1'b0; //segCtrl, 1 is effective   ? 0xFFFF_FC70
-assign VGACtrl    = (IOWrite == 1'b1 && addr_in[7:4] == 4'b1000)?1'b1:1'b0; //vgaCtrl, 1 is effective   ? 0xFFFF_FC80
-
 ```
 
 ### Controller
